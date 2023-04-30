@@ -1,0 +1,64 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@almost-bloggy/blog/list/feature": [
+        "libs/blog/list/feature/src/index.ts"
+      ],
+      "@almost-bloggy/blog/list/feature/server": [
+        "libs/blog/list/feature/src/server.ts"
+      ],
+      "@almost-bloggy/blog/post/feature": [
+        "libs/blog/post/feature/src/index.ts"
+      ],
+      "@almost-bloggy/blog/post/feature/server": [
+        "libs/blog/post/feature/src/server.ts"
+      ],
+      "@almost-bloggy/config": ["libs/config/src/index.ts"],
+      "@almost-bloggy/template/feature": ["libs/template/feature/src/index.ts"],
+      "@almost-bloggy/template/feature/server": [
+        "libs/template/feature/src/server.ts"
+      ],
+      "@almost-bloggy/template/ui/content": [
+        "libs/template/ui/content/src/index.ts"
+      ],
+      "@almost-bloggy/template/ui/content/server": [
+        "libs/template/ui/content/src/server.ts"
+      ],
+      "@almost-bloggy/template/ui/footer": [
+        "libs/template/ui/footer/src/index.ts"
+      ],
+      "@almost-bloggy/template/ui/footer/server": [
+        "libs/template/ui/footer/src/server.ts"
+      ],
+      "@almost-bloggy/template/ui/header": [
+        "libs/template/ui/header/src/index.ts"
+      ],
+      "@almost-bloggy/template/ui/header/server": [
+        "libs/template/ui/header/src/server.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "tmp",
+    "jest.config.ts",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "**e2e/**/*",
+    "dist/almost-bloggy/**/*"
+  ]
+}
